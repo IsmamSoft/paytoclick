@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------ banner with menu ------*/
+.banner {
+    padding: 40px 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f7e9d5;
+}
+
+.menuBar {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    width: 140px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: red !important;
+    transition-duration: opacity 0.3s;
+}
+
+.nav-link:hover,
+.log_sign_btn a:hover {
+    filter: opacity(0.5);
+    transition-duration: opacity 0.3s;
+}
+
+.log_sign_btn {
+    padding: 14px 20px;
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.log_sign_btn a {
+    margin: 0 10px;
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 500;
+    transition-duration: opacity 0.3s;
+    transition: all 0.5s ease;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler .fas {
+    font-size: 26px;
+    color: black !important;
+}
+
+.hero {
+    padding: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/*------ /banner with menu ------*/
+
+
+
+
+/*--------- multiple payment --------*/
+.multiple_payment {
+    padding: 80px 0;
+    background-color: #f7e9d5;
+}
+
+.multiple_payment_left,
+.multiple_payment_right {
+    margin: 10px 0;
+}
+
+.multiple_payment_left img {
+    width: 100%;
+}
+
+.multiple_payment_right {
+    padding: 20px 30px !important;
+
+}
+
+.multiple_payment_right h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.multiple_payment_right p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.rightBox {
+    margin: 10px 0;
+    padding: 14px 20px !important;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
+}
+
+.rightBoxLeft,
+.rightBoxRight {
+    margin: 6px 0;
+}
+
+.rightBoxLeft img {
+    width: 100px;
+    height: 100px;
+}
+
+.rightBoxRight h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+/*--------- /multiple payment --------*/
+
+/*------- our plan --------*/
+.plan {
+    padding: 80px 0;
+    background-color: #f7e9d5;
+}
+
+
+.pricing-block {
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.pricing-block .inner-box {
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 8%);
+    padding: 0 0 30px;
+    max-width: 370px;
+    margin: 0 auto;
+    border-bottom: 20px solid #40cbb4;
+}
+
+.pricing-block .inner-box1,
+.pricing-block .inner-box3 {
+    border-bottom: 20px solid blue;
+}
+
+.pricing-block .inner-box2 {
+    border-bottom: 20px solid orange;
+}
+
+.pricing-block .icon-box {
+    position: relative;
+    padding: 50px 30px 0;
+    background-color: #40cbb4;
+    text-align: center;
+}
+
+.pricing-block .icon-box1,
+.pricing-block .icon-box3 {
+    background-color: blue;
+}
+
+.pricing-block .icon-box2 {
+    background-color: orange;
+}
+
+.pricing-block .icon-box:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+    background-color: #ffffff;
+    content: "";
+}
+
+.pricing-block .icon-box .icon-outer {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.pricing-block .icon-box i {
+    position: relative;
+    display: block;
+    height: 130px;
+    width: 130px;
+    line-height: 120px;
+    border: 5px solid #40cbb4;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #40cbb4;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.pricing-block .icon-box1 i,
+.pricing-block .icon-box3 i {
+    border: 5px solid blue;
+    border-radius: 50%;
+    font-size: 50px;
+    color: blue;
+}
+
+.pricing-block .icon-box2 i {
+    border: 5px solid orange;
+    border-radius: 50%;
+    font-size: 50px;
+    color: orange;
+}
+
+.pricing-block:hover .icon-box i {
+    transform: rotate(360deg);
+    transition-duration: 0.6s;
+}
+
+.pricing-block .price-box {
+    position: relative;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.pricing-block .title {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #222222;
+    font-weight: 600;
+}
+
+.pricing-block .price {
+    display: block;
+    font-size: 30px;
+    color: #222222;
+    font-weight: 700;
+    color: #40cbb4;
+}
+
+.pricing-block .price1,
+.pricing-block .price3 {
+    color: blue;
+}
+
+.pricing-block .price2 {
+    color: orange;
+}
+
+
+.pricing-block .features {
+    position: relative;
+    max-width: 200px;
+    margin: 0 auto 20px;
+}
+
+.pricing-block .features li {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 500;
+    padding: 5px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+
+.pricing-block .features li i {
+    margin-right: 6px;
+    color: #2dd66b;
+}
+
+.pricing-block .btn-box {
+    position: relative;
+    text-align: center;
+}
+
+.btn-box a {
+    text-decoration: none !important;
+    padding: 10px 25px !important;
+    background-color: #40cbb4;
+    color: white !important;
+    border-radius: 6px;
+}
+
+.btn-box1 a {
+    background-color: blue;
+}
+
+.btn-box2 a {
+    background-color: orange;
+}
+
+.pricing-block:hover .btn-box a {
+    background-color: transparent !important;
+    border-top: 2px solid #40cbb4;
+    border-bottom: 2px solid #40cbb4;
+    color: #40cbb4 !important;
+    border-radius: 0 !important;
+    transition-duration: 0.6s;
+}
+
+.pricing-block:hover .btn-box2 a {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    color: orange !important;
+}
+
+/*------- /our plan ---------*/
+
+/*------- statistic -------*/
+.statistic {
+    padding: 80px 0;
+    background-color: #f7e9d5;
+}
+
+.statisticBox {
+    margin: 14px 0;
+    height: 200px;
+    border-right: 2px dotted red;
+    padding: 40px 0;
+}
+
+.statisticBox1 {
+    border-right: 0 !important;
+}
+
+.statisticBox h4 {
+    font-size: 35px;
+    font-weight: 900;
+    color: red;
+}
+
+.statisticBox h1 {
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 10px;
+    color: red;
+}
+
+.statisticBox i {
+    font-size: 26px;
+    margin: 10px 0;
+    color: red;
+}
+
+/*------- /statistic -------*/
+
+/*----- payment method --------*/
+.method {
+    padding: 80px 0;
+    background-color: #f7e9d5;
+}
+
+.methodBox {
+    margin: 14px 0;
+}
+
+.methodBox img {
+    width: 60%;
+}
+
+.methodBox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+    margin-top: 20px;
+}
+
+/*----- /payment method --------*/
+
+/*----- footer ------*/
+.footer {
+    padding-top: 80px;
+    padding-bottom: 7px;
+    background-color: #f7e9d5;
+}
+
+.footerBox {
+    margin: 14px 0;
+}
+
+.footerBox p {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footerBox h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.footerBox a {
+    display: block !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    margin: 10px 0;
+    color: black !important;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+
+/*----- /footer ------*/
+
+/*------------  responsive 768px -------*/
+@media(max-width:767px) {
+    .hero img {
+        width: 100%;
+    }
+
+    .multiple_payment_right h1 {
+        font-size: 26px;
+    }
+
+    .methodBox {
+        margin: 24px 0;
+    }
+
+    .methodBox img {
+        width: 40%;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+}
+
+/*------------  /responsive 768px -------*/
+
+/*------------  responsive 992px ------*/
+@media (min-width:768px) and (max-width:1410px) {
+    .multiple_payment_right h1 {
+        font-size: 30px;
+    }
+
+    .multiple_payment_right p {
+        font-size: 15px;
+    }
+
+    .rightBoxLeft img {
+        width: 78px;
+        height: 85px;
+    }
+
+    .rightBoxRight h2,
+    .rightBoxRight p {
+        padding-left: 19px !important;
+    }
+
+    .methodBox h2 {
+        font-size: 15px;
+        margin-top: 28px;
+    }
+
+    .footerBox p {
+        font-size: 14px;
+    }
+
+    .footerBox h1 {
+        font-size: 20px;
+    }
+
+    .footerBox a {
+        font-size: 13px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+}
+
+.footer-link a i{
+    color: #fff;
+    background: #FF0000;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+/*------------  /responsive 992px -------*/
